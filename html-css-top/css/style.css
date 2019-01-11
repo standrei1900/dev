@@ -2,6 +2,18 @@ body {
 	font-family: Arial, sans-serif;
 	font-size: small;
 }
+#banner {
+	margin: 0;
+	padding: 0;
+	font-family: "Lucida Grande", "Trebuchet MS";
+	background: #E0E0E0;
+}
+#banner h1 {
+	margin: 0;
+	padding: 45px 60px 50px 150px;
+	font-size: 200%;
+	color: #fff;
+}
 #register {
 	float: left;
 	width: 100%;
@@ -10,6 +22,8 @@ body {
 	list-style: none;
 	color: #690;
 	background: #BDDB62;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
 }
 #register a {
 	text-decoration: none;
@@ -35,6 +49,7 @@ body {
 	color: #FFF;
 	text-align: center;
 	background: #92B91C;
+	border-radius: 5px;
 }
 #message p {
 	margin: 0;
