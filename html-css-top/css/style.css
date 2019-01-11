@@ -1,0 +1,53 @@
+body {
+	font-family: Arial, sans-serif;
+	font-size: small;
+}
+#register {
+	float: left;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	color: #690;
+	background: #BDDB62;
+}
+#register a {
+	text-decoration: none;
+	color: #360;
+}
+#reg {
+	float: left;
+	margin: 0;
+	padding: 8px 14px;
+}
+#find {
+	float: right;
+	margin: 0;
+	padding: 8px 20px;
+	background: url(/img/search.png) no-repeat 0 50%;
+}
+#message {
+	float: left;
+	width: 100%;
+	clear: both;
+	font-weight: bold;
+	font-size: 110%;
+	color: #FFF;
+	text-align: center;
+	background: #92B91C;
+}
+#message p {
+	margin: 0;
+	padding: 8px 20px;
+}
+#message strong {
+	text-transform: uppercase;
+}
+#message a {
+	margin: 0 0 0 6px;
+	padding: 2px 20px;
+	text-decoration: none;
+	font-weight: normal;
+	color: #fff;
+	text-transform: uppercase;
+}
