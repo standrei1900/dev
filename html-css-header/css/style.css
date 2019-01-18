@@ -1,44 +1,50 @@
 nav[role="navigation"] {
-	float: left;
-	width: 100%;
-	margin: 0;
-	padding: 10px 0 0 46px;
-	list-style: none;
-	background: #FFCB2D;
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding: 10px 0 0 46px;
+    list-style: none;
+    background: #FFCB2D;
 }
+
 nav[role="navigation"] li {
-	float: left;
-	margin: 0 1px 0 0;
-	padding: 0;
-	font-size: 80%;
+    float: left;
+    margin: 0 1px 0 0;
+    padding: 0;
+    font-size: 80%;
 }
+
 nav[role="navigation"] ul {
-	float: left;
-	margin: 0;
-	padding: 10px 0 0 46px;
-	list-style: none;
-	background: #FFCB2D;
+    float: left;
+    margin: 0;
+    padding: 10px 0 0 46px;
+    list-style: none;
+    background: #FFCB2D;
 }
+
 nav[role="navigation"] ul li {
-	float: left;
-	margin: 0 1px 0 0;
-	padding: 0;
-	font-size: 80%;
+    float: left;
+    margin: 0 1px 0 0;
+    padding: 0;
+    font-size: 80%;
 }
+
 nav[role="navigation"] ul li a {
-	float: left;
-	display: block;
-	margin: 0;
-	padding: 4px 8px;
-	color: #333;
-	text-decoration: none;
-	border: 1px solid #9B8748;
-	border-bottom: none;
-	background: #F9E9A9;
+    float: left;
+    display: block;
+    margin: 0;
+    padding: 4px 8px;
+    color: #333;
+    text-decoration: none;
+    border: 1px solid #9B8748;
+    border-bottom: none;
+    background: #F9E9A9;
 }
-nav[role="navigation"] ul li a:hover, body#intro #intro a {
-	color: #333;
-	padding-bottom: 4px;
-	border-color: #727377;
-	background: #FFF repeat-x top left;
+
+nav[role="navigation"] ul li a:hover,
+body#intro #intro a {
+    color: #333;
+    padding-bottom: 4px;
+    border-color: #727377;
+    background: #FFF repeat-x top left;
 }
